@@ -8,6 +8,8 @@
   exclude:
     - "/vendor/"
 
+  future: true
+  
   # Site settings
   title: Wynter Archive
   subtitle: "Everything with Wynter"
