@@ -7,8 +7,6 @@ categories: [Programming, Basics]
 tags: [cpp, csharp, python, java, helloworld, deep-dive]
 ---
 
-## Deep Dive into 'Hello World' in 4 Languages (EN/KR)
-
 **Hello, Forks! Welcome to Wynter Archive.** 👋 This is the very first post, and what better way to start than by exploring the most fundamental command in programming: **"Hello World!"**
 
 We'll delve deeper into **why four major languages—Python, C++, Java, and C#—have such complex or simple code structures** just to execute this simple task. Understanding the differences here reveals the core philosophy of each language.
@@ -68,31 +66,35 @@ Python requires just one line of command. No external imports, classes, or main 
 ```python
 print("Hello World!")
 ```
-
+<br>
 #### **💻 C++ (Structure & Imports)**
 C++ requires us to include the necessary i/o tool (iostream) and define the mandatory starting point (main function) before any command can be executed.
 
-```#include <iostream>  // Mandatory: Includes the tool needed for input/output.
+```cpp
+#include <iostream>  // Mandatory: Includes the tool needed for input/output.
 int main() {         // Mandatory: The entry point (starting function) for the program.
     std::cout << "Hello World!" << std::endl; 
     return 0;        
 }
 ```
-
+<br>
 #### **☕ Java (Class Structure)**
 Java insists that all code must live inside a class (Main), and the execution must begin from a specific main method within that class structure.
 
-```public class Main { // Mandatory: Defines the class container.
-    public static void main(String[] args) { // Mandatory: The entry point (starting function) for the Java Virtual Machine.
+```java
+public class Main { // Mandatory: Defines the class container.
+    public static void main(String[] args) { 
+    // Mandatory: The entry point (starting function) for the Java Virtual Machine.
         System.out.println("Hello World!");
     }
 }
 ```
-
+<br>
 #### **🛠️ C# (Class Structure & Using Directives)**
 C# follows a structure very similar to Java, requiring a class and a Main function. It also often includes a using statement to access built-in functionality.
 
-```using System; // Optional, but common: Imports the System library.
+```csharp
+using System; // Optional, but common: Imports the System library.
 class Program
 {
     static void Main(string[] args)
