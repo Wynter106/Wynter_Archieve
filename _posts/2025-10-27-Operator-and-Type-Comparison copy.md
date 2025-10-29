@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Four Languages, One Math Problem: Operator and Type Comparison"
+title: "Four Languages: Operator and Type Comparison"
 subtitle: "Deep Dive into A+B, A/B (Quotient), and Data Types"
 date: 2025-10-27 23:00:00 -0700
 categories: [Programming, Comparison, Basics]
